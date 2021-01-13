@@ -1,8 +1,8 @@
 # azure-vm-sql-report
 PowerShell script and Power BI report for reporting Azure VM and Azure SQL VM licensing info
 
-![Azure VM Report](Images/Screenshot 2021-01-13 114142.jpg)
-![Azure SQL VM Report](Images/Screenshot 2021-01-13 114237.jpg)
+![Azure VM Report](https://github.com/jaceklyzwa/azure-vm-sql-report/blob/main/Images/Screenshot%202021-01-13%20114142.jpg)
+![Azure SQL VM Report](https://github.com/jaceklyzwa/azure-vm-sql-report/blob/main/Images/Screenshot%202021-01-13%20114237.jpg)
 
 # Prerequisites
 1. An Azure Subscription(s)
