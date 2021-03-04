@@ -1,0 +1,170 @@
+{
+	"name": "CallRecords",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "jlsynapsews-WorkspaceDefaultStorage",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobFSLocation",
+				"fileName": "sample_qcall_analytics.csv",
+				"folderPath": ".",
+				"fileSystem": "demo"
+			},
+			"columnDelimiter": ",",
+			"escapeChar": "\"",
+			"firstRowAsHeader": true,
+			"quoteChar": "\""
+		},
+		"schema": [
+			{
+				"name": "_raw",
+				"type": "String"
+			},
+			{
+				"name": "_time",
+				"type": "String"
+			},
+			{
+				"name": "eid",
+				"type": "String"
+			},
+			{
+				"name": "eventtype",
+				"type": "String"
+			},
+			{
+				"name": "group",
+				"type": "String"
+			},
+			{
+				"name": "h",
+				"type": "String"
+			},
+			{
+				"name": "host",
+				"type": "String"
+			},
+			{
+				"name": "index",
+				"type": "String"
+			},
+			{
+				"name": "linecount",
+				"type": "String"
+			},
+			{
+				"name": "priority",
+				"type": "String"
+			},
+			{
+				"name": "punct",
+				"type": "String"
+			},
+			{
+				"name": "req.attest",
+				"type": "String"
+			},
+			{
+				"name": "req.dest.tn{}",
+				"type": "String"
+			},
+			{
+				"name": "req.displayname",
+				"type": "String"
+			},
+			{
+				"name": "req.iat",
+				"type": "String"
+			},
+			{
+				"name": "req.identities{}.info",
+				"type": "String"
+			},
+			{
+				"name": "req.identities{}.ppt",
+				"type": "String"
+			},
+			{
+				"name": "req.orig.tn",
+				"type": "String"
+			},
+			{
+				"name": "req.origid",
+				"type": "String"
+			},
+			{
+				"name": "req.ppt",
+				"type": "String"
+			},
+			{
+				"name": "req.profileid",
+				"type": "String"
+			},
+			{
+				"name": "rsp.attest",
+				"type": "String"
+			},
+			{
+				"name": "rsp.displayname",
+				"type": "String"
+			},
+			{
+				"name": "rsp.info",
+				"type": "String"
+			},
+			{
+				"name": "rsp.origid",
+				"type": "String"
+			},
+			{
+				"name": "rsp.verstat",
+				"type": "String"
+			},
+			{
+				"name": "sid",
+				"type": "String"
+			},
+			{
+				"name": "site",
+				"type": "String"
+			},
+			{
+				"name": "source",
+				"type": "String"
+			},
+			{
+				"name": "sourcetype",
+				"type": "String"
+			},
+			{
+				"name": "splunk_server",
+				"type": "String"
+			},
+			{
+				"name": "splunk_server_group",
+				"type": "String"
+			},
+			{
+				"name": "st",
+				"type": "String"
+			},
+			{
+				"name": "t",
+				"type": "String"
+			},
+			{
+				"name": "tid",
+				"type": "String"
+			},
+			{
+				"name": "timestamp",
+				"type": "String"
+			}
+		]
+	},
+	"type": "Microsoft.Synapse/workspaces/datasets"
+}

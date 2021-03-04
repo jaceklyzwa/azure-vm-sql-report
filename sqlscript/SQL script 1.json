@@ -1,0 +1,16 @@
+{
+	"name": "SQL script 1",
+	"properties": {
+		"content": {
+			"query": "select sum(totalsales) from dbo.monthly_sales group by brandname",
+			"metadata": {
+				"language": "sql"
+			},
+			"currentConnection": {
+				"name": "default",
+				"type": "SqlOnDemand"
+			}
+		},
+		"type": "SqlQuery"
+	}
+}
